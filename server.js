@@ -4,7 +4,7 @@ const http = require('http');
 const requestListener = function (req,res) {
 
   res.writeHead(200);
-  res.end("<b>Hello World!</b>");
+  res.end("Hello World!");
 }
 
 const server = http.createServer(requestListener);
